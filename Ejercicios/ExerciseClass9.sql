@@ -23,8 +23,8 @@ ORDER BY city_amount DESC
 -- Generate a report with customer (first, last) name, address, total films rented and the total money spent renting films.
 -- Show the ones who spent more money first .
 SELECT c1.first_name, c1.last_name, a1.address, COUNT(*)AS total_films_rented,(SELECT SUM(amount)
-																	  		   FROM payment p1 
-																	  		   WHERE p1.customer_id = c1.customer_id ) as total_money_spent
+																	  	FROM payment p1 
+																	  	WHERE p1.customer_id = c1.customer_id ) as total_money_spent
 FROM rental r1, customer c1, address a1
 WHERE c1.customer_id = r1.customer_id
 AND c1.address_id = a1.address_id 
