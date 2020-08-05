@@ -48,12 +48,12 @@ WHERE rating IN('PG','G','R')
 -- Write the necessary statements and queries for the following steps.
 -- Find a film that was not yet returned. And use that rental id. Pick the latest that was rented for example.
 -- Use the id to return the film.
-SELECT * FROM film f 
-JOIN inventory i USING(film_id)
-JOIN rental r USING(inventory_id)
-WHERE r.return_date IS NULL
-ORDER BY r.rental_date DESC
-LIMIT 1
+UPDATE rental 
+SET return_date = CURRENT_TIMESTAMP
+WHERE rental_id = (SELECT * 
+		   FROM (SELECT MAX(rental_id) 
+		   	 FROM rental 
+			 WHERE return_date IS NULL) rental)
 
 
 -- Try to delete a film
