@@ -49,7 +49,7 @@ SELECT
 	f.rental_rate AS Price,
 	f.length,
 	f.rating,
-	GROUP_CONCAT(CONCAT_WS('', a.first_name, a.last_name)) AS Actors
+	GROUP_CONCAT(CONCAT_WS(' ', a.first_name, a.last_name)) AS Actors
 FROM
 	film f ,
 	film_actor fa ,
@@ -61,6 +61,7 @@ WHERE
 	AND fa.actor_id = a.actor_id
 	AND f.film_id = fc.film_id
 	AND fc.category_id = c.category_id 
+GROUP BY f.film_id, c.name
   
   
 -- Create view sales_by_film_category, it should return 'category' and 'total_rental' columns.
@@ -69,7 +70,7 @@ CREATE OR REPLACE
 VIEW sales_by_film_category AS
 SELECT
 	c.name,
-	SUM(p.amount) AS total_rental
+	COUNT(r.rental_id) AS total_rental
 FROM
 	payment p
 JOIN rental r
@@ -82,6 +83,7 @@ JOIN film_category fc
 		USING(film_id)
 JOIN category c
 		USING(category_id)
+GROUP BY c.name
   
 
   
@@ -98,5 +100,6 @@ FROM
 	actor a
 JOIN film_actor fa
 		USING(actor_id)
+GROUP BY a.actor_id
   
   
