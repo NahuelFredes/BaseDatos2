@@ -126,3 +126,20 @@ QUEUED
 	1) OK 
 	2) "redis" 
 	3) (integer) 1 
+
+
+
+
+<<<BACKUPS>>>
+
+> SAVE  
+OK 
+> CONFIG get dir  
+1) "dir" 
+2) "/user/tutorialspoint/redis-2.8.13/src" 
+
+
+
+<<<BENCHMARKS>>>
+
+> redis-benchmark -n 100000  
