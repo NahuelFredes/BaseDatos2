@@ -14,16 +14,24 @@
 #### Modulos
 Blabla
 * **Command** (Martinez, Martiarena)
+        
         Blabla
+        
 * **Parsing** (Corral, Fredes)
-    BLabla
-* **Builtin** (Corral, Fredes)
-    - Blabla
-* **Execute** (Martinez, Martiarena, Corral)
-    - Blabla
-* **MyBash** (Martinez, Martiarena, Fredes, Corral)
-    - Blabla
 
+        BLabla
+          
+* **Builtin** (Corral, Fredes)
+
+        -Blabla
+         
+* **Execute** (Martinez, Martiarena, Corral)
+
+        - Blabla
+* **MyBash** (Martinez, Martiarena, Fredes, Corral)
+
+        - Blabla
+    
 
 ###  Resultado Final
     Blabla
