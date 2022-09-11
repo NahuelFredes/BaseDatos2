@@ -2,7 +2,8 @@
 *Programando nuestro propio shell de linux*
 
 ## McLovin Operativo :whale:
----
+
+**INTEGRANTES:
 * Alejo Corral
 * Nahuel Fredes
 * Francisco Martiarena
@@ -24,13 +25,7 @@
     - Blabla
 
 ###  Resultado Final
-```sh
-127.0.0.1:8000
-```
+Blabla
 ![Diagrama Modularizacion](/src/diagrama_mod.png/ "Diagrama Modularizacion")
 #### Explicacion
-> Blabla
-> Blabla
-> Blabla
-> Blabla
-> Blabla
+    Blablabla
