@@ -11,7 +11,7 @@
 * Ignacio Martinez Goloboff
 
 ### Proceso de Desarrollo:
-#### Modulos
+#### *Modulos:*
 Blabla
 * **Command** (Martinez, Martiarena)
         
@@ -23,19 +23,19 @@ Blabla
           
 * **Builtin** (Corral, Fredes)
 
-        -Blabla
+        Blabla
          
 * **Execute** (Martinez, Martiarena, Corral)
 
-        - Blabla
+        Blabla
 * **MyBash** (Martinez, Martiarena, Fredes, Corral)
 
-        - Blabla
+        Blabla
     
 
 ###  Resultado Final
     Blabla
-    ![Diagrama Modularizacion](/src/diagrama_mod.png/ "Diagrama Modularizacion")
-    
-   #### Explicacion
+![Diagrama Modularizacion](/src/diagrama_mod.png/ "Diagrama Modularizacion")
+
+#### Explicacion
         Blablabla
