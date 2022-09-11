@@ -1,8 +1,8 @@
 <h1 align="center">Laboratorio 1 - Sistemas Operativos 2022 - Mybash</h1>
-*Programando nuestro propio shell de linux*
+
 
 ## McLovin Operativo :whale:
-
+*Programando nuestro propio shell de linux*
 **INTEGRANTES:**
 * Alejo Corral
 * Nahuel Fredes
