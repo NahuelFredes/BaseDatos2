@@ -36,5 +36,6 @@ Blabla
 ###  Resultado Final
     Blabla
     ![Diagrama Modularizacion](/src/diagrama_mod.png/ "Diagrama Modularizacion")
-    #### Explicacion
+    
+   #### Explicacion
         Blablabla
