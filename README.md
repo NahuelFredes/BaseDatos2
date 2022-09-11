@@ -3,7 +3,7 @@
 
 ## McLovin Operativo :whale:
 
-**INTEGRANTES:
+**INTEGRANTES:**
 * Alejo Corral
 * Nahuel Fredes
 * Francisco Martiarena
