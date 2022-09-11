@@ -15,7 +15,7 @@
     Blabla
     * **Command** (Martinez, Martiarena)
         - Blabla
-    * **Parsing**  (Corral, Fredes)
+    <b>Parsing</b>  (Corral, Fredes)
         - Blabla
     * **Builtin** (Corral, Fredes)
         - Blabla
