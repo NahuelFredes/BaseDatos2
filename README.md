@@ -1,4 +1,4 @@
-**<h1 align="center">Laboratorio 1 - Sistemas Operativos 2022 - Mybash</h1>**
+<h1 align="center">Laboratorio 1 - Sistemas Operativos 2022 - Mybash</h1>
  *Programando nuestro propio shell de linux*
 
 ## McLovin Operativo :whale:
