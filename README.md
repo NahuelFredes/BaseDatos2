@@ -15,11 +15,11 @@
 Blabla
 * **Command** (Martinez, Martiarena)
         
-        Blabla
+        Implementacion de TADs scommand y pipeline
         
 * **Parsing** (Corral, Fredes)
 
-        BLabla
+        
           
 * **Builtin** (Corral, Fredes)
 
