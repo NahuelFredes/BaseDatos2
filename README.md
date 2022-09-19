@@ -28,11 +28,7 @@ Como la consigna pedía, utilizamos una modularizacion de 5 partes (sin incluir 
         
 * **Command** (Martinez, Martiarena)
         
-        Implementacion de TADs scommand y pipeline, los cuales proveen una representacion abstracta de los comandos.
-        El scommand, o comando simple, consiste en una secuencia de cadenas las cuales comienzan con el comando y lo siguen sus argumentos, con dos cadenas
-        adicionales para redirecciones de entrada y salida.
-        El pipeline, o tubería, se presenta como una secuencia de comandos simples, con un booleano que indica si se debe ejecutar en segundo plano o no.
-        Para estos se utiliza la libreria glib, en particular usamos GSList la cual es una estructura que nos da glib representando una lista simple, tiene un puntero         a un dato y un puntero al siguiente de la lista.
+        Implementacion de TADs scommand y pipeline, los cuales proveen una representacion abstracta de los comandos. El scommand, o comando simple, consiste en una secuencia de cadenas las cuales comienzan con el comando y lo siguen sus argumentos, con dos cadenas adicionales para redirecciones de entrada y salida. El pipeline, o tubería, se presenta como una secuencia de comandos simples, con un booleano que indica si se debe ejecutar en segundo plano o no. Para estos se utiliza la libreria glib, en particular usamos GSList la cual es una estructura que nos da glib representando una lista simple, tiene un puntero a un dato y un puntero al siguiente de la lista.
         
 * **Parsing** (Corral, Fredes)
 
@@ -54,9 +50,9 @@ Como la consigna pedía, utilizamos una modularizacion de 5 partes (sin incluir 
 
     
 ### Proceso de Desarrollo:
-Comenzamos trabajando en el modulo command, el cual era la primera parte a desarrollar para luego poder implementar los demás. Un problema que se nos presentó
-fue al utilizar la funcion strlen en un char creado sin el caracter de finalizacion '\0', la cual nos daba error. Y tambien otros errores de Segmentation Fault
-los cuales pudimos solucionar con la herramienta de debugging gdb.
+        Comenzamos trabajando en el modulo command, el cual era la primera parte a desarrollar para luego poder implementar los demás. Un problema que se nos presentó
+        fue al utilizar la funcion strlen en un char creado sin el caracter de finalizacion '\0', la cual nos daba error. Y tambien otros errores de Segmentation Fault
+        los cuales pudimos solucionar con la herramienta de debugging gdb.
 
 ###  Resultado Final
     Blabla
