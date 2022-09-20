@@ -5,8 +5,8 @@
 ## McLovin Operativo :whale:
 
 **INTEGRANTES:**
-* Alejo Corral  - alecorral@mi.unc.edu.ar
-* Nahuel Fredes - nahuelfredes2018@mi.unc.edu.ar
+
+Alejo Corral  - alecorral@mi.unc.edu.ar<br>Nahuel Fredes - nahuelfredes2018@mi.unc.edu.ar
 * Francisco Martiarena  -  franciscomartiarena@mi.unc.edu.ar
 * Ignacio Martinez Goloboff - ignacio.martinez.goloboff@mi.unc.edu.ar
 
